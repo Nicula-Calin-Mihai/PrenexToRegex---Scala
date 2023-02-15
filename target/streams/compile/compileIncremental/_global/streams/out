@@ -1,0 +1,32 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 8 products, 3 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Regex.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Regex.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/Nfa.class, ${BASE}/target/scala-2.13/classes/Nfa$.class, ${BASE}/target/scala-2.13/classes/Main.class, ${BASE}/target/scala-2.13/classes/Main$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Dfa.scala, ${BASE}/src/main/scala/Regex.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/Nfa.class, ${BASE}/target/scala-2.13/classes/Nfa$.class, ${BASE}/target/scala-2.13/classes/Main.class, ${BASE}/target/scala-2.13/classes/Main$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Nfa, Dfa, Main, Regex)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/Nfa.scala, ${BASE}/src/main/scala/Regex.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 3 sources are invalidated
+[debug] Initial set of included nodes: Nfa, Dfa, Main, Regex
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 3 Scala sources to /mnt/d/Proiecte/Teme/LFA_2/skel-scala/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.7.1:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 50b789c for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/resources.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/rt.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/sunrsasign.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/jsse.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/jce.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/charsets.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/lib/jfr.jar:/home/zieno/.sdkman/candidates/java/8.0.352-tem/jre/classes:/home/zieno/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	/mnt/d/Proiecte/Teme/LFA_2/skel-scala/target/scala-2.13/classes
+[debug] Scala compilation took 4.2572677 s
+[info] done compiling

@@ -1,0 +1,11 @@
+[error] /home/alex/Desktop/lfa/lfa-etapa2/skel-scala/src/main/scala/Regex.scala:8:59: type mismatch;
+[error]  found   : Unit
+[error]  required: List[Either[Char,Char]]
+[error]   def preprocess(s:List[Char]): List[Either[Char,Char]] = {}
+[error]                                                           ^
+[error] /home/alex/Desktop/lfa/lfa-etapa2/skel-scala/src/main/scala/Regex.scala:11:39: type mismatch;
+[error]  found   : Unit
+[error]  required: String
+[error]   def toPrenex(str: String): String = {}
+[error]                                       ^
+[error] two errors found
